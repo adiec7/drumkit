@@ -11,7 +11,7 @@ body{
 .keys{
     display: flex;
     flex: 1;
-    min-height: 87rem;
+    min-height: 100%;
     align-items: center;
     justify-content: center;
 }
@@ -22,7 +22,7 @@ body{
     font-size: 60px;
     padding: 20px 20px;
     transition: all .07s ease;
-    width: 70px;
+    width: 100%;
     text-align: center;
     color:#0404FC;
     background: rgba(red, green, blue, 0.4);
