@@ -16,7 +16,7 @@ body{
     justify-content: center;
 }
 .key{
-    border: 5px solid white;
+    border: 5px solid #FBA408;
     border-radius: 50px;
     margin: 6px;
     font-size: 60px;
@@ -24,7 +24,7 @@ body{
     transition: all .07s ease;
     width: 100%;
     text-align: center;
-    color:#0404FC;
+    color:#FCAC1C;
     background: rgba(red, green, blue, 0.4);
     text-shadow: 0 0 5px pink;
 }
