@@ -1,0 +1,49 @@
+body{
+    font-size: 10px;
+    background-image: url(drum.jpg);
+    background-image: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.keys{
+    display: flex;
+    flex: 1;
+    min-height: 87rem;
+    align-items: center;
+    justify-content: center;
+}
+.key{
+    border: 5px solid white;
+    border-radius: 50px;
+    margin: 6px;
+    font-size: 60px;
+    padding: 20px 20px;
+    transition: all .07s ease;
+    width: 70px;
+    text-align: center;
+    color:#0404FC;
+    background: rgba(red, green, blue, 0.4);
+    text-shadow: 0 0 5px pink;
+}
+.key:hover{
+    color: gold;
+    background: rgb(106, 110, 109);
+}
+ .playing{
+     transform: scale(1.1);
+     border-color: aliceblue;
+     box-shadow: 0 0 1rem paleturquoise;
+ }
+
+ .kbd{
+     display: inline;
+     font-size: 20px;
+ }
+ .sound{
+     font-size: 20px;
+     text-transform: uppercase;
+     letter-spacing: 0px;
+     color:#4E8FBD;
+ }
